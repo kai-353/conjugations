@@ -18,7 +18,7 @@ def print_dict(dictionary):
 
 
 if __name__ == '__main__':
-    vervoeger = Vervoeger()
+    vervoeger = Vervoeger(YOUR_INSTALLATION_PATH/chromedriver)
 
     print_dict(option_dict)
     while True:
