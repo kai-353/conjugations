@@ -17,7 +17,6 @@ class Vervoeger:
             driver.get(f"https://www.vertalen.nu/vervoeging?vervoeg={werkwoord}&taal=es")
             header = driver.find_element_by_xpath(f"//*[contains(text(), '{optie}')]")
             parent = header.find_element_by_xpath("./..")
-            # conjugation_list = parent.find_element_by_tag_name("ul")
             print(parent.text)
             driver.close()
         except NoSuchElementException:
