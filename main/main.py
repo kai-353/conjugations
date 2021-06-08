@@ -1,4 +1,3 @@
-
 from vervoeger import Vervoeger
 
 option_dict = {
