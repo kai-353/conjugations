@@ -8,8 +8,8 @@ def conjugation_error(werkwoord):
 
 class Vervoeger:
 
-    def __init__(self):
-        self.PATH = "C:\Program Files (x86)\chromedriver.exe"
+    def __init__(self, path):
+        self.PATH = path
 
     def get_conjugation(self, werkwoord, optie):
         driver = webdriver.Chrome(self.PATH)
