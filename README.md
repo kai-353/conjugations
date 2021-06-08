@@ -3,17 +3,22 @@ Gives you the conjugations of spanish verbs. I made this purely to have an easie
 
 ## Installation
 
-hoi
+Download the ZIP file from the main github page!
 
 ## Usage
 
-Set the path of your chromedriver in 'vervoeger.py', and run the project from the terminal with 'python3 vervoeger.py'
+Set the path of your chromedriver in 'vervoeger.py':
 
 ```python
 def __init__(self):
     self.PATH = "YOUR_PATH/chromedriver.exe"
 ```
 
+And to run the script, use:
+
+```bash
+python3 INSTALL_LOCATION/main.py
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
