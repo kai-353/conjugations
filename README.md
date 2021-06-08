@@ -3,7 +3,11 @@ Gives you the conjugations of spanish verbs. I made this purely to have an easie
 
 ## Installation
 
-Download the ZIP file from the main github page!
+Download the ZIP file from the main github page, and install selenium.
+
+```bash
+pip3 install selenium
+```
 
 ## Usage
 
