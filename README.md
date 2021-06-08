@@ -15,7 +15,7 @@ Set the path of your chromedriver in 'vervoeger.py':
 
 ```python
 def __init__(self):
-    self.PATH = "YOUR_PATH/chromedriver.exe"
+    self.PATH = "YOUR_PATH/chromedriver"
 ```
 
 And to run the script, use:
